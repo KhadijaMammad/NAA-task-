@@ -116,20 +116,37 @@ Author - Post author name
 📁 Project Structure
 
 src/
+
 ├── components/
+
 │   ├── PostsTable.tsx      # Main posts management table
+
 │   ├── PostModal.tsx       # Add/Edit post form modal
+
 │   ├── Sidebar.tsx         # Navigation sidebar
+
 │   ├── SuccessModal.tsx    # Success notification
+
 │   └── DeleteModal.tsx     # Delete confirmation
+
 ├── hooks/
+
 │   └── usePosts.ts         # Custom hook for posts CRUD operations
+
 ├── lib/
+
 │   └── supabase.ts         # Supabase client configuration
+
 ├── pages/
+
 │   └── MainPage.tsx        # Main application page component
+
 ├── types/
+
 │   └── index.ts            # TypeScript type definitions
+
 ├── utils/
+
 │   └── mockData.ts         # Mock data for development
+
 └── App.tsx                 # Root application component
