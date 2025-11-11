@@ -7,14 +7,7 @@ import PostsTable from '../components/PostsTable';
 import PostModal from '../components/PostModal';
 import SuccessModal from '../components/SuccessModal';
 import DeleteModal from '../components/DeleteModal';
-// import Sidebar from './components/Sidebar';
-// import PostsTable from './components/PostsTable';
-// import PostModal from './components/PostModal';
-// import SuccessModal from './components/SuccessModal';
-// import DeleteModal from './components/DeleteModal';
-// import { usePosts, createPost, updatePost, deletePost } from './hooks/usePosts';
-// import { Post, PostFormData } from './types';
-// import { mockPosts } from './utils/mockData';
+
 
 function Main() {
   const { posts, loading, refetch } = usePosts();
