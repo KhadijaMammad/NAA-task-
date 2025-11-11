@@ -114,7 +114,7 @@ Author - Post author name
 
 
 📁 Project Structure
-text
+
 src/
 ├── components/
 │   ├── PostsTable.tsx      # Main posts management table
